@@ -151,3 +151,10 @@ int main()
                 break;
             }
         }
+        catch (exception &e)
+        {
+            cout << "Check for values entered." << endl;
+        }
+    }
+    return 0;
+}
