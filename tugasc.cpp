@@ -144,3 +144,10 @@ int main()
             case '3':
                 q.display();
                 break;
+                case '4':
+                return 0;
+            default:
+                cout << "Invalid option" << endl;
+                break;
+            }
+        }
